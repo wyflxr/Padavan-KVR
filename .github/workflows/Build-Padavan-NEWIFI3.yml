@@ -40,7 +40,7 @@ jobs:
         exit 1
         fi
         cp -f configs/templates/$TNAME.config .config
-                ################################################################################################
+        ################################################################################################
         ###  清除默认配置###
         sed -i '/CONFIG_FIRMWARE_ENABLE_IPV6/d' .config
         sed -i '/CONFIG_FIRMWARE_ENABLE_USB/d' .config
