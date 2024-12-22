@@ -396,9 +396,9 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_MSD_LITE=y" >> .config #MSD_LITE工具
         ##科学上网##
         echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=y" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=y" >> .config #mini太小，内置不进
-        echo "CONFIG_FIRMWARE_INCLUDE_XRAY=y" >> .config #mini太小，内置不进
-        echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=y" >> .config #mini太小，内置不进
+        #echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=y" >> .config #mini太小，内置不进
+        #echo "CONFIG_FIRMWARE_INCLUDE_XRAY=y" >> .config #mini太小，内置不进
+        #echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=y" >> .config #mini太小，内置不进
         echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=y" >> .config
         #########################################################################################
         sudo ./clear_tree
